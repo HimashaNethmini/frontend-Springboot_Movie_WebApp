@@ -16,6 +16,7 @@ function App() {
     }
   };
 
+  //get a movie detail
   const getMovieData = async (movieId) => {
     try {
       const response = await api.get(`/api/v1/movies/${movieId}`);
